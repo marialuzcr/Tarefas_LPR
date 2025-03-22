@@ -1,0 +1,14 @@
+C:\Users\maria\OneDrive\Área de Trabalho\ldr2\tarefa1\bin\Debug\net9.0\tarefa1.exe
+C:\Users\maria\OneDrive\Área de Trabalho\ldr2\tarefa1\bin\Debug\net9.0\tarefa1.deps.json
+C:\Users\maria\OneDrive\Área de Trabalho\ldr2\tarefa1\bin\Debug\net9.0\tarefa1.runtimeconfig.json
+C:\Users\maria\OneDrive\Área de Trabalho\ldr2\tarefa1\bin\Debug\net9.0\tarefa1.dll
+C:\Users\maria\OneDrive\Área de Trabalho\ldr2\tarefa1\bin\Debug\net9.0\tarefa1.pdb
+C:\Users\maria\OneDrive\Área de Trabalho\ldr2\tarefa1\obj\Debug\net9.0\tarefa1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maria\OneDrive\Área de Trabalho\ldr2\tarefa1\obj\Debug\net9.0\tarefa1.AssemblyInfoInputs.cache
+C:\Users\maria\OneDrive\Área de Trabalho\ldr2\tarefa1\obj\Debug\net9.0\tarefa1.AssemblyInfo.cs
+C:\Users\maria\OneDrive\Área de Trabalho\ldr2\tarefa1\obj\Debug\net9.0\tarefa1.csproj.CoreCompileInputs.cache
+C:\Users\maria\OneDrive\Área de Trabalho\ldr2\tarefa1\obj\Debug\net9.0\tarefa1.dll
+C:\Users\maria\OneDrive\Área de Trabalho\ldr2\tarefa1\obj\Debug\net9.0\refint\tarefa1.dll
+C:\Users\maria\OneDrive\Área de Trabalho\ldr2\tarefa1\obj\Debug\net9.0\tarefa1.pdb
+C:\Users\maria\OneDrive\Área de Trabalho\ldr2\tarefa1\obj\Debug\net9.0\tarefa1.genruntimeconfig.cache
+C:\Users\maria\OneDrive\Área de Trabalho\ldr2\tarefa1\obj\Debug\net9.0\ref\tarefa1.dll
