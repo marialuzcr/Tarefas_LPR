@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tarefa2", "tarefa2\tarefa2.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tarefa5", "tarefa5\tarefa5.csproj", "{158D07F4-DC75-4E91-A704-6D28DE0B1AFB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tare5", "tare5\tare5.csproj", "{BAF09C95-893E-4341-857B-08E3E7E9C9D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,18 @@ Global
 		{158D07F4-DC75-4E91-A704-6D28DE0B1AFB}.Release|x64.Build.0 = Release|Any CPU
 		{158D07F4-DC75-4E91-A704-6D28DE0B1AFB}.Release|x86.ActiveCfg = Release|Any CPU
 		{158D07F4-DC75-4E91-A704-6D28DE0B1AFB}.Release|x86.Build.0 = Release|Any CPU
+		{BAF09C95-893E-4341-857B-08E3E7E9C9D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAF09C95-893E-4341-857B-08E3E7E9C9D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAF09C95-893E-4341-857B-08E3E7E9C9D9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BAF09C95-893E-4341-857B-08E3E7E9C9D9}.Debug|x64.Build.0 = Debug|Any CPU
+		{BAF09C95-893E-4341-857B-08E3E7E9C9D9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BAF09C95-893E-4341-857B-08E3E7E9C9D9}.Debug|x86.Build.0 = Debug|Any CPU
+		{BAF09C95-893E-4341-857B-08E3E7E9C9D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAF09C95-893E-4341-857B-08E3E7E9C9D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAF09C95-893E-4341-857B-08E3E7E9C9D9}.Release|x64.ActiveCfg = Release|Any CPU
+		{BAF09C95-893E-4341-857B-08E3E7E9C9D9}.Release|x64.Build.0 = Release|Any CPU
+		{BAF09C95-893E-4341-857B-08E3E7E9C9D9}.Release|x86.ActiveCfg = Release|Any CPU
+		{BAF09C95-893E-4341-857B-08E3E7E9C9D9}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
