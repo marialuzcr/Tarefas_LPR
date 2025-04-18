@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "ucYmTGSTbVM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\maria\\OneDrive\\Área de Trabalho\\Tarefas_LPR\\Tarefas_LPR\\exercicio3\\exercicio3.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\maria\\OneDrive\\Área de Trabalho\\Tarefas_LPR\\Tarefas_LPR\\exercicio3\\obj\\project.nuget.cache : Found invalid data while decoding."
+    }
+  ]
+}
