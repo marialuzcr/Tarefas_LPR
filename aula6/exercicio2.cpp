@@ -9,59 +9,88 @@ using namespace std;
 #define RESET   "\033[0m"
 
 void exercicio1() {
-    int num;
-    cout << RED << "Digite um número: " << RESET;
-    cin >> num;
-
-    int quadrado = num * num;
-    int soma = 0;
-
-    while (quadrado > 0) {
-        soma += quadrado % 10;
-        quadrado /= 10;
+     {
+        cout << RED << "------------------" << RESET << endl;
+        cout << RED << "  aula5-tarefa1   " << RESET << endl;
+        cout << RED << "------------------" << RESET << endl;
+    
+        int quantidade;
+        cout << YELLOW << "Quantos números serão digitados? " << RESET;
+        cin >> quantidade;
+    
+        int contador = 0, soma = 0, quant = 0;
+    
+        while (contador < quantidade) {
+            int numero;
+            cout << YELLOW << "Digite o " << contador + 1 << "º número: " << RESET;
+            cin >> numero;
+    
+            if (numero % 2 == 0) {
+                soma += numero;
+                quant++;
+            }
+    
+            contador++;
+        }
+    
+        if (quant > 0) {
+            double media = soma * 1.0 / quant;
+            cout << BLUE << "A média dos números pares é: " << media << RESET << endl;
+        } else {
+            cout << BLUE << "Nenhum número par foi digitado." << RESET << endl;
+        }
     }
-
-    cout << YELLOW << "A soma dos dígitos do quadrado é: " << soma << RESET << endl;
 }
 
 
 void exercicio3() {
-    int soma = 0;
-
-    for (int i = 50; i <= 500; i++) {
-        if (i % 2 != 0 && i % 3 == 0) {
-            soma += i;
+    {
+        std::setlocale(LC_ALL, "pt_BR.UTF-8"); 
+        cout << RED << "------------------" << RESET << endl;
+        cout << RED << "  aula5-tarefa3   " << RESET << endl;
+        cout << RED << "------------------" << RESET << endl;
+        int soma = 0; 
+        cout << "digite um numero  " << soma << endl;
+        cout << "\033[1;32m" << "Texto em verde" << "\033[0m" << endl; 
+    
+        for (int i = 50; i <= 500; i++) {
+           
+            if (i % 2 != 0 && i % 3 == 0) {
+                soma += i;
+            }
         }
+    
+        
+        cout << "A soma dos números ímpares múltiplos de 3 entre 50 e 500 é: " << soma << endl;
     }
-
-    cout << GREEN << "A soma dos ímpares múltiplos de 3 entre 50 e 500 é: " << soma << RESET << endl;
 }
 
 
 void exercicio4() {
-    int quantidade;
-    cout << YELLOW << "Quantos números serão digitados? " << RESET;
-    cin >> quantidade;
-
-    int soma = 0, quant = 0;
-
-    for (int i = 1; i <= quantidade; i++) {
+    {
+   
         int num;
-        cout << "Digite o " << i << "º número: ";
+        cout << RED << "------------------" << RESET << endl;
+        cout << RED << "  aula5-tarefa4  " << RESET << endl;
+        cout << RED << "------------------" << RESET << endl;
+        cout << RED <<"Digite um numero: "<<RESET << endl;
         cin >> num;
-
-        if (num % 2 == 0) {
-            soma += num;
-            quant++;
+    
+        
+        int quadrado = num*num;
+        int soma = 0;
+    
+        while (quadrado > 0) {
+            
+            int digito = quadrado % 10;
+    
+            soma += digito;
+    
+            quadrado /= 10;
         }
-    }
-
-    if (quant > 0) {
-        double media = static_cast<double>(soma) / quant;
-        cout << BLUE << fixed << setprecision(2);
-        cout << "A média dos números pares é: " << media << RESET << endl;
-    } else {
-        cout << BLUE << "Nenhum número par foi digitado." << RESET << endl;
+        
+        cout <<  YELLOW << "A soma dos digitos do quadrado eh: " << soma << RESET << endl;
+    
     }
 }
 

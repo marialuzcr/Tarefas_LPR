@@ -58,6 +58,7 @@
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "dotnet.defaultSolution": "exercicio3.sln",
   "files.associations": {
-    "string": "cpp"
+    "string": "cpp",
+    "iostream": "cpp"
   }
 }
